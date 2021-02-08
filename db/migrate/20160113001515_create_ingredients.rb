@@ -4,6 +4,7 @@ class CreateIngredients < ActiveRecord::Migration[4.2]
       t.string :name
       t.string :quantity
 
+
       t.timestamps null: false
     end
   end
